@@ -31,4 +31,4 @@ api.post('/Accounts/Login', (req, res) => {
 });
 
 
-api.listen((port || 8001), () => console.log('Servidor escuchando en puerto ' + port));
+api.listen((process.env.PORT || 8001), () => console.log('Servidor escuchando en puerto ' + port));
