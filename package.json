@@ -1,0 +1,28 @@
+{
+  "name": "back_titan_tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenrsgrantitan/backTitanTech.git"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.4.1"
+  },
+  "author": "Steven Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenrsgrantitan/backTitanTech/issues"
+  },
+  "homepage": "https://github.com/stevenrsgrantitan/backTitanTech#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
